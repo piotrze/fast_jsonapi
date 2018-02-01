@@ -58,11 +58,11 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activesupport>, ["~> 5.0"])
+      s.add_runtime_dependency(%q<activesupport>, ["~> 4.2"])
       s.add_runtime_dependency(%q<multi_json>, ["~> 1.12"])
       s.add_runtime_dependency(%q<oj>, ["~> 3.3"])
       s.add_runtime_dependency(%q<skylight>, ["~> 1.3"])
-      s.add_runtime_dependency(%q<activerecord>, ["~> 5.0"])
+      s.add_runtime_dependency(%q<activerecord>, ["~> 4.2"])
       s.add_development_dependency(%q<rspec>, ["~> 3.5.0"])
       s.add_development_dependency(%q<rspec-benchmark>, ["~> 0.3.0"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
